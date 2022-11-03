@@ -1,0 +1,44 @@
+td, th {
+    padding: 20px;
+    text-align: center;
+    width: 15rem;
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+
+img:hover {
+    transition: .3s;
+    transform: scale(3);
+    cursor: pointer;
+}
+
+.better1 {
+    font-size: 1.25rem;
+}
+
+.better2 {
+    text-align: justify;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.Xbox_One {
+    width: 160px;
+    height: 200px;
+}
+
+.Nintendo_Switch {
+    width: 120px;
+    height: 200px;
+}
+
+.PlayStation_4 {
+    width: 160px;
+    height: 200px;
+}
+

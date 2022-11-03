@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --background: #D1C4E9;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    font-size: 16px;
+    background: var(--background);
+}
+
+main {
+  padding: 6rem 2rem 2rem 8rem;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+
+}
+
+.h1-icon {
+  margin: 0 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 0 2rem;
+}
+
+label {
+  font-size: 1.25rem;
+}
+
+.profil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.infos {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.infos a {
+  color: black;
+  font-size: 1.75rem;
+}

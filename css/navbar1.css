@@ -1,0 +1,149 @@
+:root {
+  --navbar1-background-color: #7B1FA2;
+  --navbar1-icon-color: rgb(255, 255, 255);
+  --navbar1-text-color: rgb(255, 255, 255);
+  --primary1-color: #000000;
+  --button-color: #BA68C8;
+  --button-hovered-color: #9C27B0;
+}
+
+.navbar1 {
+  background: var(--navbar1-background-color);
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar1-menu{
+    width: 97.5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar1-title {
+  color: var(--navbar1-text-color);
+}
+
+.navbar1-link {
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar1-icon {
+  color: var(--navbar1-icon-color);
+  margin: 0 1rem;
+}
+
+.searchbar {
+  border-radius: 50px 0 0 50px;
+  height: 3rem;
+  width: 30rem;
+  border: none;
+  outline: none;
+  margin-right: -5px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.button {
+  border-radius: 0 50px 50px 0;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--button-color);
+}
+
+.button-icon {
+  color: var(--navbar1-icon-color);
+  font-size: 1rem;
+}
+
+.button:hover .button-icon {
+  color: var(--primary1-color);
+}
+
+.button:hover {
+  background-color: var(--button-hovered-color);
+}
+
+.logo1:hover .navbar1-icon {
+  transform: rotate(360deg);
+  transition-duration: .3s;
+  color: var(--primary1-color);
+}
+
+.logo1:hover .navbar1-title {
+  transition-duration: .3s;
+  transition: all ease-out;
+  background-color: var(--navbar2-item-hovered-color);
+  color: var(--primary1-color);
+  box-shadow: 0 3px 0 var(--primary1-color);
+}
+
+.navbar1-link:hover .navbar1-icon {
+  transition-duration: .3s;
+  color: var(--primary1-color);
+  transform: scale(2);
+}
+
+.navbar1-link:hover .navbar1-title {
+  transition-duration: .3s;
+  transition: all ease-out;
+  background-color: var(--navbar2-item-hovered-color);
+  color: var(--primary1-color);
+  box-shadow: 0 3px 0 var(--primary1-color);
+}
+
+@media only screen and (max-width: 1800px) {
+  .searchbar {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .navbar1-link:not(:hover) .navbar1-title{
+    display: none;
+  }
+  .searchbar{
+    width: 17.5rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo1 .navbar1-title {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .searchbar {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+}
