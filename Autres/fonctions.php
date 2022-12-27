@@ -5,7 +5,7 @@
  * @return PDO  
  * 
  */
-function dbConnect()
+function dbConnect() // user : epiz_33272024 pass : OMyvTZhcR3Zv6s host : sql105.epizy.com dbname : epiz_33272024_le_bistro_du_jv
 {
   $user = 'root';
   $pass = '';
