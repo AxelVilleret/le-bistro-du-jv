@@ -1,5 +1,6 @@
 <?php
 session_start();
+require('Autres/fonctions.php');
 $_SESSION = array();
 session_destroy();
 header("Location: accueil.php");

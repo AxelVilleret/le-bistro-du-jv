@@ -1,25 +1,16 @@
-<?php
-session_start();
-
-if (isset($_GET['s']) and !empty($_GET['s'])) {
-  $_SESSION['s'] = $_GET['s'];
-  header("Location: resultats_recherche.php");
-}
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
   <meta charset="UTF-8" />
-  <title> - Le bistro du JV</title>
+  <title>Accueil - Le bistro du JV</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=neon" />
   <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/formulaires.css" />
+  <link rel="stylesheet" href="css/affichages.css" />
   <link rel="stylesheet" href="css/navbar1.css" />
   <link rel="stylesheet" href="css/navbar2.css" />
   <link rel="stylesheet" href="css/accueil.css" />
-  <link rel="stylesheet" href="css/affichages.css" />
-  <link rel="stylesheet" href="css/formulaires.css" />
   <script src="https://kit.fontawesome.com/03959c15b4.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" href="favicon_package_v0.16/favicon-32x32.png">
 </head>
@@ -129,14 +120,4 @@ if (isset($_GET['s']) and !empty($_GET['s'])) {
       </ul>
     </nav>
   </header>
-
-  <main>
-    <h1>
-      <i class=" h1-icon"></i>
-      <span></span>
-      <hr color="black">
-    </h1>
-  </main>
 </body>
-
-</html>
