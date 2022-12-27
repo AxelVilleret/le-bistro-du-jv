@@ -22,6 +22,8 @@ Site réalisé lors de ma formation d'ingénieur pour apprendre les bases du Web
 
 - Importer le fichier "le_bistro_du_jv.sql" dans la base de données
 
+- Modifier le fichier "fonctions.php" en insérant vos identifiants de connexion à la base de données dans la fonction "dbConnect()"
+
 - Lancer le projet
 
 ### Utilisation
