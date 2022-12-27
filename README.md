@@ -2,7 +2,7 @@
 
 ## Description
 
-Site réalisé lors de ma formation d'ingénieur pour apprendre les bases du Web. Nous avions pour consigne de ne pas utiliser de Framework. Le bistro du JV est un site web créé pour une ludothèque de jeux vidéos. Il permet de gérer les jeux, les membres, les emprunts et les retours de jeux. 
+Site created during my engineering training to learn the basics of the Web. We were instructed not to use a Framework. Le bistro du JV is a website created for a toy library of video games. It allows to manage the games, the members, the loans and the returns of games.
 
 ## Installation
 
