@@ -7,9 +7,11 @@
  */
 function dbConnect() // user : epiz_33272024 pass : OMyvTZhcR3Zv6s host : sql105.epizy.com dbname : epiz_33272024_le_bistro_du_jv
 {
+  $host = 'localhost';
+  $dbname = 'le_bistro_du_jv';
   $user = 'root';
   $pass = '';
-  $db = new PDO('mysql:host=localhost;dbname=le_bistro_du_jv;charset=utf8', $user, $pass);
+  $db = new PDO('mysql:host=' . $host . ';dbname=' . $dbname . ';charset=utf8', $user, $pass);
   return $db;
 }
 
@@ -83,7 +85,7 @@ function init_panier($panier)
 function taille_panier($id)
 {
   $panier = 3;
-  $Connect = new PDO('mysql:host=127.0.0.1;dbname=le_bistro_du_jv;charset=utf8', 'root', '');
+  $Connect = dbConnect();
   $req = $Connect->prepare('SELECT rendu FROM reservations WHERE id= ?');
   $req->execute(array($id));
   while ($rendu = $req->fetch()) {
