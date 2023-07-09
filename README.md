@@ -10,6 +10,8 @@ In terms of functionality, this is a site for a toy library of video games compo
 - one intended for the customer allowing him to create an account and to borrow and manage his reservations;
 - another for the admin which is used to manage the stocks, as well as the returns of the customer's loans. He also has the ability to manage the games that are featured on the site.
 
+![Le Bistrot du JV](https://axel-villeret.netlify.app/lebistrodujv.40b589d1.png)
+
 ## Installation
 
 ### Prérequis
