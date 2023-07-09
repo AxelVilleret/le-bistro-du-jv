@@ -2,7 +2,13 @@
 
 ## Description
 
-Site created during my engineering training to learn the basics of the Web. We were instructed not to use a Framework. Le bistro du JV is a website created for a toy library of video games. It allows to manage the games, the members, the loans and the returns of games.
+This project was for me the most ambitious and rewarding of my school career. This is my very first website, the one that aroused my curiosity and my interest in application development.
+
+In terms of technologies, it embeds HTML/CSS as well as PHP in communication with a server-side MySQL database.
+
+In terms of functionality, this is a site for a toy library of video games composed of two parts:
+- one intended for the customer allowing him to create an account and to borrow and manage his reservations;
+- another for the admin which is used to manage the stocks, as well as the returns of the customer's loans. He also has the ability to manage the games that are featured on the site.
 
 ## Installation
 
