@@ -40,10 +40,10 @@ In terms of functionality, this is a site for a toy library of video games compo
 
         Login : maria.db@gmail.com
 
-        Mot de passe : onlyonequeen
+        Password : onlyonequeen
 
 - Log in with the user account
 
         Login : axel_villeret@orange.fr
 
-        Mot de passe : Axel2001
+        Password : Axel2001
