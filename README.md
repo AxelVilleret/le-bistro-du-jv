@@ -14,7 +14,7 @@ In terms of functionality, this is a site for a toy library of video games compo
 
 ## Installation
 
-### Prérequis
+### Prerequisites
 
 - PHP
 
@@ -24,25 +24,25 @@ In terms of functionality, this is a site for a toy library of video games compo
 
 ### Installation
 
-- Cloner le projet
+- Clone the project
 
-- Créer une base de données nommée "le_bistro_du_jv"
+- Create a database named “le_bistro_du_jv”
 
-- Importer le fichier "le_bistro_du_jv.sql" dans la base de données
+- Import the file “le_bistro_du_jv.sql” into the database
 
-- Modifier le fichier "fonctions.php" en insérant vos identifiants de connexion à la base de données dans la fonction "dbConnect()"
+- Modify the file “fonctions.php” by inserting your database connection credentials into the “dbConnect()” function
 
-- Lancer le projet
+- Launch the project
 
 ### Utilisation
 
-- Se connecter avec le compte admin
+- Log in with the admin account
 
         Login : maria.db@gmail.com
 
         Mot de passe : onlyonequeen
 
-- Se connecter avec le compte utilisateur
+- Log in with the user account
 
         Login : axel_villeret@orange.fr
 
